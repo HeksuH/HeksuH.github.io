@@ -1,3 +1,26 @@
-.pink {
-  background: pink;
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/Cinzel-Regular.ttf') format('ttf');
+}
+
+body {
+   background-image: url('./images/joo.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 0;
+   min-height: 100vh;
+}
+.header {
+    width: 100vw;
+}
+.header-wrapper {
+    background-color: #202652;
+    font-family: 'Cinzel', serif;
+    font-size: 15em;
+    padding: 21px;
+    color: #ffffff;
+    text-align: center;
+
 }
