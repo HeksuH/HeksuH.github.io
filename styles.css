@@ -47,3 +47,13 @@ img {
 .wrapper {
     display: block;
 }
+.video {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+}
+@media (max-width:680px) {
+    .video {
+        width: 90%;
+    }
+}
