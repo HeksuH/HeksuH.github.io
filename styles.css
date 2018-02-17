@@ -17,10 +17,12 @@ body {
 }
 .header-wrapper {
     background-color: #202652;
+    color: #ffffff;
     font-family: 'Cinzel', serif;
     font-size: 3em;
     padding: 11px;
-    color: #ffffff;
     text-align: center;
-
+}
+.image {
+    src: url('./images/IMG_0210.JPG');
 }
