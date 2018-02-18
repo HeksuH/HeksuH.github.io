@@ -17,6 +17,17 @@ img {
     max-width: 100%;
 }
 
+a {
+    color: #202652;
+    text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
+
 .header {
     width: 100vw;
 }
@@ -35,12 +46,6 @@ img {
 .w-50 {
     width: 50%;
 }
-.text {
-    padding: 30px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 2px 2px 10px 6px #ffffff;
-}
-
 .image-spacing {
     margin: 20px;
 }
@@ -56,4 +61,21 @@ img {
     .video {
         width: 90%;
     }
+}
+.button {
+    display: block;
+    width: fit-content;
+    background-color: #202652;
+    color: #ffffff;
+    padding: 15px;
+    margin: 0 auto;
+
+}
+.button:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.text {
+    text-align:
+
 }
