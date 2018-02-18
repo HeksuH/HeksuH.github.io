@@ -60,8 +60,7 @@ a:hover {
 }
 @media (max-width:680px) {
     .video {
-        width: 90%;
-    }
+        width: 90%; }
 }
 .button {
     display: block;
@@ -86,6 +85,6 @@ a:hover {
         display: inline-block;
     }
     .videoin {
-        
+
     }
 }
