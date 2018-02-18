@@ -80,3 +80,12 @@ a:hover {
     text-align:
 
 }
+@media (min-width:680px) {
+    .video50 {
+        width: 50%;
+        display: inline-block;
+    }
+    .videoin {
+        
+    }
+}
