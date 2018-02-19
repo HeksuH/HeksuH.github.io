@@ -60,7 +60,8 @@ a:hover {
 }
 @media (max-width:680px) {
     .video {
-        width: 90%; }
+        width: 90%;
+    }
 }
 .button {
     display: block;
@@ -81,10 +82,12 @@ a:hover {
 }
 @media (min-width:680px) {
     .video50 {
-        width: 50%;
         display: inline-block;
+        width: 50%;
     }
-    .videoin {
-
-    }
+}
+.videosmall {
+    width: 70%;
+    display: inline-block;
+    margin: 0 auto;
 }
