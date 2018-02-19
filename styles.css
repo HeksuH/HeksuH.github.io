@@ -82,14 +82,14 @@ a:hover {
 }
 @media (min-width:680px) {
     .video50 {
-        display: inline-block;
+        display: block;
         width: 50%;
     }
 }
-.videoin {
-    width: 70%;
+.videoin { 
     display: block;
     margin: 0 auto;
+    width: 59%;
 }
 .text-wrapper {
     background-color: #21275280;
