@@ -91,3 +91,22 @@ a:hover {
     display: block;
     margin: 0 auto;
 }
+.text-wrapper {
+    background-color: #21275280;
+    box-shadow: 0px 0px 6px 3px #21275280;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+}
+.etext {
+    color: #ffffff;
+    text-align: center;
+}
+.h1 {
+    display: block;
+    color: #212752;
+    font-family: 'Cinzel', serif;
+    font-size: large;
+    text-align: center;
+}
