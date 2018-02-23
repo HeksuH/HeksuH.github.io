@@ -119,17 +119,44 @@ a:hover {
     padding: 18px;
 }
 .menubtn:hover, .menubtn:focus {
-    background-color: #1f1f3e;
+    background-color: #aad6ea;
 }
 .dropmenu {
     position: relative;
     display: inline-block;
 }
 .menu-content {
-    background-color: #ffffff
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: none;
-    min-width: 160px;
+    background-color: #ffffff;
+    box-shadow: 12px 11px 16px 1px #21275275;
+    display: block;
+    min-width: 100px;
     position: absolute;
     z-index: 1;
+}
+.menu-contenta{
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.menu-content:hover {
+    background-color: #aad6ea;
+}
+.show {
+    display: block;
+}
+function myFunction() {
+    document.getElementById("mymenu").classList.toggle("show");
+}
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+      }
+    }
+    }
 }
